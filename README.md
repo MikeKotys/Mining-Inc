@@ -12,7 +12,7 @@ see QuaryUpgradable.cs
 
 see FactoryView.cs. Keep in mind, that although all the functionality is in place to have unlimited skins, the code in FactoryUpgradable.cs still only supports three factory skins due to the fact that there are only three factory models preset. Once more models are provided code would need to be changed.
 
-# Implement progress saving between the sessions:
+## Implement progress saving between the sessions:
 
 see SaveSystem.cs and other classes in the "Scripts/Save System" folder.
 
