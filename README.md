@@ -48,9 +48,13 @@ all "Raycast Target" checkboxes were unchecked.
 
 all models in the scene were moved to blender to have their textures baked into vertex colors. Now all models are rendered with a single material - VertexColorStandard. This resulted in slight discoloration of the final image due to the lighting models slightly differing between the Standard shader and my shader. This can be fixed for a propper project.
 
+Shadow distance was increased in the editor settings to ensure that the top-right island or environmental props casts shadows propperly.
+
 Moreover, I very much understand that baking the vertex colors manualy is inefficient - for the propper project I can write an editor extension that can automate thsi process.
 
 Also, for the objects that still use textures (Dump Truck, bulldozer, etc...) I reduced the size of their textures in the texture importer.
+
+All materials now support GPU instancing. Dynamic batching was turned on in editor preferences to use this.
 
 Finally all Directional Lights in the scene but one were turned off and their intensity merged into the remaining Directional Light. This drastically improves draw call limit, but the double shadow effect was lost in the process. If the double shadow effect is desirable, the intensity of the main Directional Light must be reduced to .25 and the Secondary Camera directional light should be turned on. However, it is advised to either use Deferred rendering or URP for this scenario as builtin render pipeline with forward rendering is very inefficient in scenarios with multiple lights.
 
