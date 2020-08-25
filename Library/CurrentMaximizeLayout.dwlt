@@ -26,7 +26,7 @@ MonoBehaviour:
   m_MinSize: {x: 907, y: 322}
   m_MaxSize: {x: 22002, y: 10000}
   vertical: 0
-  controlID: 19054
+  controlID: 4572
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -132,7 +132,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 322}
   m_MaxSize: {x: 4002, y: 8022}
   vertical: 1
-  controlID: 19019
+  controlID: 4573
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -290,15 +290,16 @@ MonoBehaviour:
     m_KeySerializationHelper:
     - {fileID: -7431100910854371018, guid: f82c06a2bdc133e4dafc84009b9f477e, type: 2}
     - {fileID: 6904693867718193283, guid: 8cae846383c9246ebbfc7979c2623e60, type: 2}
+    - {fileID: -4239677338450824054, guid: 8ec7d052c128b41a0bcc8a80c9a33919, type: 2}
     m_ValueSerializationHelper:
-    - e00: 1
+    - e00: 0.74526316
       e01: 0
       e02: 0
-      e03: 0
+      e03: -22.263153
       e10: 0
-      e11: 1
+      e11: 0.74526316
       e12: 0
-      e13: 0
+      e13: 212.7
       e20: 0
       e21: 0
       e22: 1
@@ -315,6 +316,22 @@ MonoBehaviour:
       e11: 1
       e12: 0
       e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 0.708
+      e01: 0
+      e02: 0
+      e03: 15
+      e10: 0
+      e11: 0.708
+      e12: 0
+      e13: 230.4
       e20: 0
       e21: 0
       e22: 1
@@ -324,10 +341,10 @@ MonoBehaviour:
       e32: 0
       e33: 1
   m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 9100000, guid: 8cae846383c9246ebbfc7979c2623e60,
+  m_AnimatorController: {fileID: 9100000, guid: f82c06a2bdc133e4dafc84009b9f477e,
     type: 2}
   m_BreadCrumbs:
-  - m_Target: {fileID: 6904693867718193283, guid: 8cae846383c9246ebbfc7979c2623e60,
+  - m_Target: {fileID: -7431100910854371018, guid: f82c06a2bdc133e4dafc84009b9f477e,
       type: 2}
     m_ScrollPosition: {x: 0, y: 0}
   stateMachineGraph: {fileID: 0}
@@ -541,7 +558,7 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 14840
+  m_LastSelectedObjectID: -3518
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -599,7 +616,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 6efbffffb0390000683f0000
+      m_ExpandedIDs: 6efbffff36340000ae3a00006a3f00007a3f000054450000724a0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -688,20 +705,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/GreenPandaAssets/Animations/BullDozer
+    - Assets/GreenPandaAssets/Scripts/Save System
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/GreenPandaAssets/Animations/BullDozer
+  - Assets/GreenPandaAssets/Scripts/Save System
   m_LastFoldersGridSize: 16
   m_LastProjectPath: E:\PROJECTS\Mining Inc
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 2a330000
-    m_LastClickedID: 13098
-    m_ExpandedIDs: 000000005e2d0000802d0000e62d00003a3000005a300000ea3000003c3100003e3100004c32000070320000e24d0000e44d0000e64d0000e84d000000ca9a3b
+    m_SelectedIDs: ce320000
+    m_LastClickedID: 13006
+    m_ExpandedIDs: 00000000622d0000842d0000ea2d00004030000060300000f030000042310000443100005232000076320000fa4d0000fc4d0000fe4d0000004e000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -729,7 +746,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000005e2d0000802d0000e62d00003a3000005a300000ea3000003c3100003e3100004c32000070320000e24d0000e44d0000e64d0000e84d000000ca9a3b
+    m_ExpandedIDs: 00000000622d0000842d0000ea2d00004030000060300000f030000042310000443100005232000076320000fa4d0000fc4d0000fe4d0000004e000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

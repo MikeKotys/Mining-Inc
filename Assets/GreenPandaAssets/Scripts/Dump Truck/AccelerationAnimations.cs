@@ -19,11 +19,11 @@ namespace GreenPandaAssets.Scripts.DumpTruck
 		float OriginalZRotation;
 
 		//The current component is a parasite component and thus can have direct access to the class it latches onto.
-		MoveTruck MoveToCheckpoint;
+		MoveTruck MoveTruck;
 
 		private void Awake()
 		{
-			MoveToCheckpoint = GetComponent<MoveTruck>();
+			MoveTruck = GetComponent<MoveTruck>();
 
 #if UNITY_EDITOR
 			if (CarBody == null)
@@ -33,7 +33,7 @@ namespace GreenPandaAssets.Scripts.DumpTruck
 				enabled = false;
 			}
 
-			if (MoveToCheckpoint == null)
+			if (MoveTruck == null)
 			{
 				Debug.LogError("WARNING! The '" + nameof(DumpTruck.MoveTruck) + "' component could not"
 					+ " be found by the '" + nameof(AccelerationAnimations) + "'"
@@ -50,7 +50,7 @@ namespace GreenPandaAssets.Scripts.DumpTruck
 
 		private void Update()
 		{
-			float currentMovementSpeed = MoveToCheckpoint.GetCurrentSpeed();
+			float currentMovementSpeed = MoveTruck.GetCurrentSpeed();
 			float delta = currentMovementSpeed - LastFrameMovementSpeed;
 			delta = Mathf.Lerp(LastFrameDelta, delta, AnimationSpeed);
 

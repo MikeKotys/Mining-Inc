@@ -10,23 +10,23 @@ namespace GreenPandaAssets.Scripts.DumpTruck
 	public class MoveTruck : MonoBehaviour, ISavable
 	{
 		/// <summary>How fast can the truck move?</summary>
-		[NonSerialized][HideInInspector]
-		public float MaxMovementSpeed = 8;
+		[SerializeField][HideInInspector]
+		float MaxMovementSpeed = 8;
 		/// <summary>How fast can the truck accelerate?</summary>
-		[NonSerialized][HideInInspector]
-		public float AccelerationSpeed = 5;
+		[SerializeField][HideInInspector]
+		float AccelerationSpeed = 5;
 
 		/// <summary>How fast can the truck break?</summary>
-		[NonSerialized][HideInInspector]
-		public float DecelerationMultiplier = 5;
+		[SerializeField][HideInInspector]
+		float DecelerationMultiplier = 5;
 
 		/// <summary>How fast can the truck rotate?</summary>
-		[NonSerialized][HideInInspector]
-		public float MaxRotationSpeed = 5;
+		[SerializeField][HideInInspector]
+		float MaxRotationSpeed = 5;
 
 		/// <summary>How close to the checkpoint the truck should be to trigger the checkpoint change?</summary>
-		[NonSerialized][HideInInspector]
-		public float CheckpointProximityThreshold = .8f;
+		[SerializeField][HideInInspector]
+		float CheckpointProximityThreshold = .8f;
 
 		/// <summary>Current checkpoint number.</summary>
 		[SerializeField][HideInInspector]

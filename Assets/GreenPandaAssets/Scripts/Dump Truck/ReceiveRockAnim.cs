@@ -54,8 +54,8 @@ namespace GreenPandaAssets.Scripts.DumpTruck
 
 		public void Save(ref string file)
 		{
-			file += CurrentRockRelativeLevel.ToString();
-			file += Animator.GetLayerWeight(RockLayer);
+			file += CurrentRockRelativeLevel.ToString() + "\n";
+			file += Animator.GetLayerWeight(RockLayer) + "\n";
 		}
 
 		public bool Load(StreamReader reader)
