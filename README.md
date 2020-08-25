@@ -1,7 +1,9 @@
 # Mining-Inc
 
 Calculate and display coins income per min:
+
 see TopUI.cs
+
 
 Add 4th upgrade for Career Development - Bulldozed loads higher amount to the Truck:
 see QuaryUpgradable.cs
