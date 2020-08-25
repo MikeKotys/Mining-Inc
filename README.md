@@ -1,14 +1,14 @@
 # Mining-Inc
 
-# Calculate and display coins income per min:
+## Calculate and display coins income per min:
 
 see TopUI.cs
 
-# Add 4th upgrade for Career Development - Bulldozed loads higher amount to the Truck:
+## Add 4th upgrade for Career Development - Bulldozed loads higher amount to the Truck:
 
 see QuaryUpgradable.cs
 
-# Make FactoryView to support unlimited amount of skins:
+## Make FactoryView to support unlimited amount of skins:
 
 see FactoryView.cs. Keep in mind, that although all the functionality is in place to have unlimited skins, the code in FactoryUpgradable.cs still only supports three factory skins due to the fact that there are only three factory models preset. Once more models are provided code would need to be changed.
 
